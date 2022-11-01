@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matthew Delaney</title>
+    <link rel="icon" href="../website_assets/MDlogo.png">
+    <link rel="stylesheet" href="../css/mystyles.css">
+
+  
+  </head>
+  
+<body>
+
+  <!-- Hero bar with navbar links -->
+  <section class="hero is-primary is-small">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <nav class="navbar">
+         
+        <div class="container">
+          <div class="navbar-brand">
+            
+            <span class="navbar-burger" id="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+        <div class="navbar-menu" id="nav-links">
+          <div class="navbar-end">
+            <span class="navbar-item">
+              <a href="..">Home</a>
+            </span>
+            
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link is-active" style="color:white">Projects</a>
+
+              <div class="navbar-dropdown">
+                <span class="navbar-item has-text-weight-bold">
+                  <a href="universityfunding.html" class="dropdown-item is-active">University funding</a>
+                </span>
+                <span class="navbar-item has-text-weight-bold">
+                  <a href="plasticrecycling.html">Plastic recycling</a>
+                </span>
+                <span class="navbar-item has-text-weight-bold">
+                  <a href="dspcalculator.html">DSP calculator</a>
+                </span>
+              </div>
+            </div>
+
+            <span class="navbar-item">
+              <a href="consulting.html">Photonic Consulting</a>
+            </span>
+
+            <span class="navbar-item">
+              <a href="contactme.html">Contact me</a>
+            </span>
+
+            <span class="navbar-item">
+              <a href="https://www.linkedin.com/in/matthew-delaney-a43b69b4/">
+              <img src="../website_assets/linkedin_logo.png" alt="LinkedIn" style="width:25px;height:25px;">
+              </a>
+            </span>
+            <span class="navbar-item">
+              <a href="https://github.com/md12g12">
+              <img src="../website_assets/github.png" alt="Github" style="width:25px;height:25px;">
+              </a>
+            </span>
+            <span class="navbar-item">
+              <a href="https://scholar.google.com/citations?user=32kpSTAAAAAJ&hl=en&oi=sra">
+              <img src="../website_assets/google_scholar_logo.png" alt="Google Scholar" style="width:25px;height:25px;">
+              </a>
+            </span>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero bar with name -->
+    <div class="hero-body">
+      <div class="container has-text-left">
+        <h1 class="title is-1">
+          Matthew Delaney
+        </h1>
+        <p class="subtitle">
+          Research Scientist · Data scientist
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main section -->
+  <section style="min-height: 70vh;" id="content" class="section pt-6 has-background-white">
+    <div class="container">
+      <div class="columns is-vcentered is-multiline">
+        <div class="column is-11-desktop ml-6 mb-6 "> <!-- mt-6 -->
+          <h1 class="title is-size-4">University Research Funding</h1>
+          <p class="is-size-5"> The UKRI (UK Research and Innovate) is responsible for deciding which institutions receive research grant. Comparing this publicly available data with university league tables I try to model the level of funding an institution receives based on their university league table performance using a range of approaches.</p>
+          <br>
+          <p class="is-size-5"> This project is hosted on Github viewed with NBviewer to render the ipython notebooks (see links below).</p>
+          <br>
+          <a class="is-size-5" href="https://nbviewer.org/github/md12g12/ML_UK_university_funding_project/blob/main/University_funding_data_cleaning.ipynb">Data mining and cleaning</a>
+          <br>
+          <a class="is-size-5" href="https://nbviewer.org/github/md12g12/ML_UK_university_funding_project/blob/main/ML_UK_university_funding.ipynb">ML notebook</a>
+          <br>
+          <br>
+          <p class="is-size-5">A few different regression models were tried with a Random Forest Regression providing the best result. </p>
+        </div>
+        
+             
+
+        
+
+       </div>
+    </div>
+  </section>
+  
+
+  <!-- footer section with copyright statement -->
+  <footer class="footer has-background-grey-lighter">
+    <div class="content has-text-centered">
+      <p class="is-size-6"> &copy; Matthew Delaney 2022 </p>
+    </div>
+  </footer>
+
+</body>
+
+
+ <script lang="js">
+    const burgerIcon = document.querySelector("#burger");
+  const navbarMenu = document.querySelector("#nav-links");
+
+  burgerIcon.addEventListener("click", () =>{
+    console.log('clicked!')
+    navbarMenu.classList.toggle("is-active");
+  });
+</script>
+
+

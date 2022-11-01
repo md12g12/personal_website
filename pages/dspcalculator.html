@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matthew Delaney</title>
+    <link rel="icon" href="../website_assets/MDlogo.png">
+    <link rel="stylesheet" href="../css/mystyles.css">
+
+
+  </head>
+  
+<body>
+
+  <!-- Hero bar with navbar links -->
+  <section class="hero is-primary is-small">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <nav class="navbar">
+         
+        <div class="container">
+          <div class="navbar-brand">
+            
+            <span class="navbar-burger" id="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+        <div class="navbar-menu" id="nav-links">
+          <div class="navbar-end">
+             <span class="navbar-item">
+              <a href="..">Home</a>
+            </span>
+            
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link is-active" style="color:white">Projects</a>
+
+              <div class="navbar-dropdown">
+                <span class="navbar-item has-text-weight-bold">
+                  <a href="universityfunding.html">University funding</a>
+                </span>
+                <span class="navbar-item has-text-weight-bold">
+                  <a href="plasticrecycling.html">Plastic recycling</a>
+                </span>
+                <span class="navbar-item has-text-weight-bold">
+                  <a href="dspcalculator.html" class="dropdown-item is-active">DSP calculator</a>
+                </span>
+              </div>
+            </div>
+
+            <span class="navbar-item">
+              <a href="consulting.html">Photonic Consulting</a>
+            </span>
+
+            <span class="navbar-item">
+              <a href="contactme.html">Contact me</a>
+            </span>
+
+            <span class="navbar-item">
+              <a href="https://www.linkedin.com/in/matthew-delaney-a43b69b4/">
+              <img src="../website_assets/linkedin_logo.png" alt="LinkedIn" style="width:25px;height:25px;">
+              </a>
+            </span>
+            <span class="navbar-item">
+              <a href="https://github.com/md12g12">
+              <img src="../website_assets/github.png" alt="Github" style="width:25px;height:25px;">
+              </a>
+            </span>
+            <span class="navbar-item">
+              <a href="https://scholar.google.com/citations?user=32kpSTAAAAAJ&hl=en&oi=sra">
+              <img src="../website_assets/google_scholar_logo.png" alt="Google Scholar" style="width:25px;height:25px;">
+              </a>
+            </span>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero bar with name -->
+    <div class="hero-body">
+      <div class="container has-text-left">
+        <h1 class="title is-1">
+          Matthew Delaney
+        </h1>
+        <p class="subtitle">
+          Research Scientist · Data scientist
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main section -->
+  <section style="min-height: 70vh;" id="content" class="section pt-6 has-background-white">
+    <div class="container">
+      <div class="columns is-vcentered is-multiline">
+        <div class="column is-11-desktop ml-6 mb-6 "> <!-- mt-6 -->
+          <h1 class="title is-size-4">Dyson Sphere Program Calculator</h1>
+          <!--<p class="is-size-6"> Note: Contents may be slow to load as it is natively running a python program using the new pyscript framework (allowing .py files to be run directly inside the HTML of this page).</p>-->
+          <br>
+          <p class="is-size-5"> Dyson Sphere Program (DSP) is a factory game similar to Factorio, where the player crafts ever more complicated items using previous items as components (<a href="https://dsp-wiki.com/Main_Page">Game Wiki: Main page</a>).
+
+          Calculating the total resources for a given item requires finding all the components of the item, and their sub-components and so on - a perfect use case for some recursive code!
+          <br>
+          <br>
+          The dsp_calculator.py file is a simple recursive script that when given an item name, it returns all the basic resources and components needed for the full crafting recipe: <a class="is-size-5" href="https://github.com/md12g12/DSP_calculator">DSP calculator on Github</a></p>
+          <br>
+          <p class="is-size-5"> An example recipe is shown below, where the final product on the right requires 2 components, each requiring 2 components, totallying 4 "base" inputs. As the items become more advanced these dependencies scale with the power of the number of subcomponents at each level. This can result in very large dependencies which are best handled through recursion instead of using a look up table. </p>
+        </div>
+      </div>
+
+      <div class="container"> 
+        <p style="text-align:center;"><img src="../website_assets/dsp_example_image.png" width="400" height="300" alt="example recipe"></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- footer section with copyright statement -->
+  <footer class="footer has-background-grey-lighter">
+    <div class="content has-text-centered">
+      <p class="is-size-6"> &copy; Matthew Delaney 2022 </p>
+    </div>
+  </footer>
+
+</body>
+
+<!--
+ <script lang="js">
+    const burgerIcon = document.querySelector("#burger");
+  const navbarMenu = document.querySelector("#nav-links");
+
+  burgerIcon.addEventListener("click", () =>{
+    console.log('clicked!')
+    navbarMenu.classList.toggle("is-active");
+  });
+</script>
+-->
+

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="544.97522pt"
+   version="1.1"
+   viewBox="0 0 1044.3764 544.97521"
+   width="1044.3765pt"
+   id="svg317"
+   sodipodi:docname="waste_breakdown.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview319"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.56532117"
+     inkscape:cx="727.68676"
+     inkscape:cy="238.75584"
+     inkscape:window-x="-8"
+     inkscape:window-y="409"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg317" />
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:date>2022-06-02T12:45:15.158512</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Matplotlib v3.4.3, https://matplotlib.org/</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <rect
+       x="1121.0441"
+       y="225.53551"
+       width="327.68982"
+       height="123.38119"
+       id="rect2157" />
+    <rect
+       x="658.69635"
+       y="477.60461"
+       width="340.95663"
+       height="108.78772"
+       id="rect1993" />
+    <rect
+       x="581.74896"
+       y="248.08907"
+       width="350.90671"
+       height="155.88484"
+       id="rect1985" />
+    <style
+       type="text/css"
+       id="style4">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+    <rect
+       x="658.69635"
+       y="477.60461"
+       width="501.94955"
+       height="105.83197"
+       id="rect1993-7" />
+    <rect
+       x="658.69635"
+       y="477.60461"
+       width="207.62534"
+       height="70.977348"
+       id="rect2019" />
+    <rect
+       x="658.69635"
+       y="477.60461"
+       width="465.17157"
+       height="118.56877"
+       id="rect1993-7-3" />
+    <rect
+       x="658.69635"
+       y="477.60461"
+       width="207.62534"
+       height="70.977348"
+       id="rect2077" />
+  </defs>
+  <g
+     id="g2133"
+     transform="translate(-435.9924,-84.931198)">
+    <path
+       d="M 435.9924,629.9064 H 980.9676 V 84.9312 H 435.9924 Z"
+       style="fill:#ffffff"
+       id="path11" />
+    <path
+       clip-path="url(#p8369f6c073)"
+       d="m 708.48609,629.9064 c 72.26456,0 141.57907,-28.71101 192.67783,-79.80977 51.09876,-51.09876 79.80977,-120.41327 79.80977,-192.67783 0,-72.26456 -28.71101,-141.57907 -79.80977,-192.67783 C 850.06516,113.64221 780.75065,84.9312 708.48609,84.9312 c -72.26455,0 -141.57907,28.71101 -192.67783,79.80977 -51.09875,51.09876 -79.80977,120.41327 -79.80977,192.67783 0,72.26456 28.71102,141.57907 79.80977,192.67783 51.09876,51.09876 120.41328,79.80977 192.67783,79.80977 z"
+       style="fill:#1764ab;stroke:#ffffff;stroke-linejoin:miter"
+       id="path286" />
+    <path
+       clip-path="url(#p8369f6c073)"
+       d="m 708.48609,629.9064 c 25.54938,0 50.05576,-10.15088 68.1219,-28.21701 18.06614,-18.06614 28.21702,-42.57253 28.21702,-68.1219 0,-25.54938 -10.15088,-50.05577 -28.21702,-68.12191 -18.06614,-18.06613 -42.57252,-28.21701 -68.1219,-28.21701 -25.54938,0 -50.05576,10.15088 -68.1219,28.21701 -18.06614,18.06614 -28.21701,42.57253 -28.21701,68.12191 0,25.54937 10.15087,50.05576 28.21701,68.1219 18.06614,18.06613 42.57252,28.21701 68.1219,28.21701 z"
+       style="fill:#4a98c9;stroke:#ffffff;stroke-linejoin:miter"
+       id="path289" />
+    <path
+       clip-path="url(#p8369f6c073)"
+       d="m 708.48609,629.9064 c 12.51659,0 24.52222,-4.97289 33.37278,-13.82346 8.85057,-8.85056 13.82346,-20.85619 13.82346,-33.37278 0,-12.51659 -4.97289,-24.52221 -13.82346,-33.37278 -8.85056,-8.85056 -20.85619,-13.82345 -33.37278,-13.82345 -12.51658,0 -24.52221,4.97289 -33.37278,13.82345 -8.85056,8.85057 -13.82345,20.85619 -13.82345,33.37278 0,12.51659 4.97289,24.52222 13.82345,33.37278 8.85057,8.85057 20.8562,13.82346 33.37278,13.82346 z"
+       style="fill:#94c4df;stroke:#ffffff;stroke-linejoin:miter"
+       id="path292" />
+    <path
+       clip-path="url(#p8369f6c073)"
+       d="m 708.48609,629.9064 c 7.66482,0 15.01673,-3.04526 20.43657,-8.4651 5.41984,-5.41985 8.46511,-12.77176 8.46511,-20.43657 0,-7.66482 -3.04527,-15.01673 -8.46511,-20.43657 -5.41984,-5.41985 -12.77175,-8.46511 -20.43657,-8.46511 -7.66481,0 -15.01672,3.04526 -20.43657,8.46511 -5.41984,5.41984 -8.4651,12.77175 -8.4651,20.43657 0,7.66481 3.04526,15.01672 8.4651,20.43657 5.41985,5.41984 12.77176,8.4651 20.43657,8.4651 z"
+       style="fill:#d0e1f2;stroke:#ffffff;stroke-linejoin:miter"
+       id="path295" />
+  </g>
+  <defs
+     id="defs315">
+    <clipPath
+       id="p8369f6c073">
+      <rect
+         height="544.97522"
+         width="544.97522"
+         x="435.9924"
+         y="84.931198"
+         id="rect312" />
+    </clipPath>
+  </defs>
+  <g
+     id="g2261"
+     transform="translate(-185.24998,24.918661)">
+    <g
+       id="g2224">
+      <text
+         xml:space="preserve"
+         id="text1983"
+         style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1985);fill:#000000;fill-opacity:1;stroke:none;"
+         transform="translate(336.76316,-155.11807)"><tspan
+           x="581.74805"
+           y="269.98577"><tspan
+             style="font-size:24px;fill:#000000;fill-opacity:1;stroke-linecap:butt;stroke-linejoin:round">Global landfill 
+</tspan></tspan><tspan
+           x="581.74805"
+           y="299.98577"><tspan
+             style="font-size:24px;fill:#000000;fill-opacity:1;stroke-linecap:butt;stroke-linejoin:round">2 billion tonnes</tspan></tspan></text>
+      <rect
+         style="fill:#1764ab;fill-opacity:1;stroke:none;stroke-width:4.57795;stroke-linecap:square;stroke-linejoin:bevel;paint-order:markers fill stroke"
+         id="rect2039"
+         width="116.3249"
+         height="30.957432"
+         x="777.19196"
+         y="96.491386" />
+    </g>
+    <g
+       id="g2229"
+       transform="translate(0,-9.6536539)">
+      <text
+         xml:space="preserve"
+         id="text1991"
+         style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1993);fill:#000000;fill-opacity:1;stroke:none;"
+         transform="translate(257.26511,-289.11049)"><tspan
+           x="658.69727"
+           y="499.5014"><tspan
+             style="font-size:24px;stroke-linecap:butt;stroke-linejoin:round">Plastic waste
+</tspan></tspan><tspan
+           x="658.69727"
+           y="529.5014"><tspan
+             style="font-size:24px;stroke-linecap:butt;stroke-linejoin:round">250 million tonnes</tspan></tspan></text>
+      <rect
+         style="fill:#4a98c9;fill-opacity:1;stroke:none;stroke-width:4.57795;stroke-linecap:square;stroke-linejoin:bevel;paint-order:markers fill stroke"
+         id="rect2039-5"
+         width="116.3249"
+         height="30.957432"
+         x="777.19196"
+         y="189.21674" />
+    </g>
+    <g
+       id="g2235"
+       transform="translate(0,-32.392989)">
+      <text
+         xml:space="preserve"
+         id="text1991-5"
+         style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1993-7);fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:butt;stroke-linejoin:round;"
+         transform="translate(257.26511,-183.33608)"><tspan
+           x="658.69727"
+           y="499.5014"><tspan
+             style="font-size:24px;stroke-linecap:butt;stroke-linejoin:round">Mismanaged plastic waste
+</tspan></tspan><tspan
+           x="658.69727"
+           y="529.5014"><tspan
+             style="font-size:24px;stroke-linecap:butt;stroke-linejoin:round">60 million tonnes</tspan></tspan></text>
+      <rect
+         style="fill:#94c4df;fill-opacity:1;stroke:none;stroke-width:4.57795;stroke-linecap:square;stroke-linejoin:bevel;paint-order:markers fill stroke"
+         id="rect2039-8"
+         width="116.3249"
+         height="30.957432"
+         x="777.19196"
+         y="297.86224" />
+    </g>
+    <g
+       id="g2241"
+       transform="translate(0,-61.914867)">
+      <rect
+         style="fill:#d0e1f2;fill-opacity:1;stroke:none;stroke-width:4.57795;stroke-linecap:square;stroke-linejoin:bevel;paint-order:markers fill stroke"
+         id="rect2039-9"
+         width="116.3249"
+         height="30.957432"
+         x="777.19196"
+         y="411.81448" />
+      <text
+         xml:space="preserve"
+         id="text1991-5-5"
+         style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1993-7-3);fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:butt;stroke-linejoin:round;"
+         transform="translate(257.26511,-69.3033)"><tspan
+           x="658.69727"
+           y="499.5014"><tspan
+             style="font-size:24px;stroke-linecap:butt;stroke-linejoin:round">Recycled plastic
+</tspan></tspan><tspan
+           x="658.69727"
+           y="529.5014"><tspan
+             style="font-size:24px;stroke-linecap:butt;stroke-linejoin:round">22 million tonnes</tspan></tspan></text>
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     id="text2155"
+     style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2157);fill:#000000;fill-opacity:1;stroke:none;"
+     transform="translate(-185.24998,-66.357685)" />
+</svg>

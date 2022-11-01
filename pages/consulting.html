@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matthew Delaney</title>
+    <link rel="icon" href="../website_assets/MDlogo.png">
+    <link rel="stylesheet" href="../css/mystyles.css">
+
+    
+  </head>
+  
+<body>
+
+  <!-- Hero bar with navbar links -->
+  <section class="hero is-primary is-small">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <nav class="navbar">
+         
+        <div class="container">
+          <div class="navbar-brand">
+            
+            <span class="navbar-burger" id="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+        <div class="navbar-menu" id="nav-links">
+          <div class="navbar-end">
+             <span class="navbar-item">
+              <a href="..">Home</a>
+            </span>
+            
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Projects</a>
+
+              <div class="navbar-dropdown">
+                <span class="navbar-item has-text-weight-bold">
+                  <a href="universityfunding.html">University funding</a>
+                </span>
+                <span class="navbar-item has-text-weight-bold">
+                  <a href="plasticrecycling.html">Plastic recycling</a>
+                </span>
+                <span class="navbar-item has-text-weight-bold">
+                  <a href="dspcalculator.html">DSP calculator</a>
+                </span>
+              </div>
+            </div>
+
+
+
+            <a class="navbar-item is-active">Photonic Consulting</a>
+
+            <span class="navbar-item">
+              <a href="contactme.html">Contact me</a>
+            </span>
+
+            <span class="navbar-item">
+              <a href="https://www.linkedin.com/in/matthew-delaney-a43b69b4/">
+              <img src="../website_assets/linkedin_logo.png" alt="LinkedIn" style="width:25px;height:25px;">
+              </a>
+            </span>
+            <span class="navbar-item">
+              <a href="https://github.com/md12g12">
+              <img src="../website_assets/github.png" alt="Github" style="width:25px;height:25px;">
+              </a>
+            </span>
+            <span class="navbar-item">
+              <a href="https://scholar.google.com/citations?user=32kpSTAAAAAJ&hl=en&oi=sra">
+              <img src="../website_assets/google_scholar_logo.png" alt="Google Scholar" style="width:25px;height:25px;">
+              </a>
+            </span>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero bar with name -->
+    <div class="hero-body">
+      <div class="container has-text-left">
+        <h1 class="title is-1">
+          Matthew Delaney
+        </h1>
+        <p class="subtitle">
+          Research Scientist · Data scientist
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main section -->
+  <section style="min-height: 70vh;" id="content" class="section pt-6 has-background-white">
+    <div class="container">
+      <div class="columns is-vcentered is-multiline">
+        <div class="column is-11-desktop ml-6 mb-6 "> <!-- mt-6 -->
+          <h1 class="title is-size-4">MD Photonic Consulting LTD</h1>
+          <p class="is-size-5"> I run my own photonic consulting company under the name MD Photonic Consulting LTD. I provide integrated photonic component device design/simulation and wafer scale GDS layouts, as well as advice.
+          <br>
+          <br>
+          <h1 class="title is-size-5">My Background </h1>
+          <p class="is-size-5"> I learned photonic design during my PhD at the Optoelectronics Research Center in Southampton University, where I was responsible for the complete simulation, design, fabrication and testing of several PIC's. After finishing my PhD I worked as the only photonics engineer at a start up company for two years where I produced numerous device designs, working on novel on-chip lasers and amplifiers. I have used many different software's and fabrication providers, which allows me to work within any existing framework you may have.</p>
+          <br>
+          <p class="is-size-5"> If you are in need of some photonic simulation or design help then please email me at md12g12@gmail.com, whether it is for a small discussion or a full design cycle. 
+
+        </div>
+
+       </div>
+    </div>
+  </section>
+  
+
+  <!-- footer section with copyright statement -->
+  <footer class="footer has-background-grey-lighter">
+    <div class="content has-text-centered">
+      <p class="is-size-6"> &copy; Matthew Delaney 2022 </p>
+    </div>
+  </footer>
+
+</body>
+
+
+ <script lang="js">
+    const burgerIcon = document.querySelector("#burger");
+  const navbarMenu = document.querySelector("#nav-links");
+
+  burgerIcon.addEventListener("click", () =>{
+    console.log('clicked!')
+    navbarMenu.classList.toggle("is-active");
+  });
+</script>
+
+
